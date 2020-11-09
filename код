@@ -2,37 +2,6 @@
 <html>
  <head>
     <title>Лабораторная работа 1</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style>
-div 
-{ 
-    padding: 1px; /* Поля */
-    width: 50%; /* Ширина */
-    float: left; /* Выравнивание */
-    height: 1220px; /* Высота */
-    border: 10px solid #E81E25; /* Параметры рамки */
-} 
-img 
-{
-    width: 75%; /* Ширина */
-    height: 50%; /* Высота */
-} 
-</style>
-<style>
-    g { 
-    padding: 1px; /* Поля */
-    width: 50%; /* Ширина */
-    float: left; /* Выравнивание */
-    height: 350px; /* Высота */
-    border: 10px solid #white; /* Параметры рамки */
-   } 
-img 
-{
-    width: 75%; /* Ширина */
-    height: 50%; /* Высота */
-}
-</style>
-
 </head> 
     <body>
         <h1>Заголовок 1 уровня</h1>
@@ -41,11 +10,11 @@ img
         <h3>Заголовок 3 уровня</h3>
             <i>Прокомментируйте</i> сформулированную проблему.
         <h4>Заголовок 4 уровня</h4>
-            <p>Включите в комментарий два примера-иллюстрации из прочитанного текста, которые, по Вашему мнению, важны для понимания проблемы исходного текста (избегайте чрезмерного цитирования). </p>
+            <p>Включите в комментарий два примера-иллюстрации из прочитанного текста, которые, по Вашему мнению, важны для понимания проблемы исходного текста. </p>
         <h5>Заголовок 5 уровня</h5>
             <del> Поясните</del> значение каждого примера и укажите смысловую связь <ins>между ними</ins>.
         <h6>Заголовок 6 уровня</h6>
-            F<sub>тяж</sub>= V( <i>p<i> - <i>p<sub>0</sub><i> )?<sup>2</sup>x
+            F<sub>тяж</sub>= V( <i>p<i> - <i>p<sub>0</sub><i> )ω<sup>2</sup>x
 
 
 <p>
@@ -81,7 +50,7 @@ img
 </nav>
 
 
-<a href="https://drive.google.com/file/d/1Vs_3FoKCyr8qUjefyh_TSjhxvW5hoCKp/view?usp=sharing" download="" title="всплывающая подсказка">скачать текстовый файл</a>
+<a href="Текстовый.docx" download="" title="всплывающая подсказка">скачать текстовый файл</a>
 
 
 
@@ -100,37 +69,33 @@ img
         </dt>
         <dd>сфера применения, взаимодействия. <dd>
     </dl>
-<g>
-    <table border="1" width="100%" cellpadding="0">
-        <tr>
-            <th>
-                <img src="https://glavcom.ua/img/gallery/3170/90/64755_main.jpg" alt="пьяный кот">
-            </th>
-            <th>
-                <a href="www.ystu.ru"><img src="https://www.ystu.ru/upload/iblock/6b3/6b324b4a238acd67e1fb6b96b890bb34.jpg" alt="ЯГТУ"></a>
-            </th> 
-        </tr>
-</table>
-</g>
-<div>
-<table border="1" width="100%" cellpadding="5">
-   <tr>
-    <th>Ячейка 1</th>
-    <th>Ячейка 2</th>
-    <th>Ячейка 3</th>
-   </tr>
-   <tr>
-    <td>Ячейка 4</td>
-    <td>Ячейка 5</td>
-    <td>Ячейка 6</td>
-  </tr>
+<p>
+    <img src="https://hlpsrv.ru/wp-content/uploads/2019/10/alko-koty-na-kotovtornik-8.jpg" alt="котик устал">           
+    <a href="www.ystu.ru"><img src="https://studyfive.ru/wp-content/uploads/2018/04/kursovaya-na-zakaz-yaroslavl-768x531.jpg" alt="ЯГТУ"></a>
+</p>
+<p>
+    <img src="https://hlpsr.ru/wp-content/uploads/2019/10/alko-koty-na-kotovtornik-8.jpg" alt="котик устал">           
+    <a href="www.ystu.ru"><img src="https://studyf.ru/wp-content/uploads/2018/04/kursovaya-na-zakaz-yaroslavl-768x531.jpg" alt="ЯГТУ"></a>
+</p>
+        
+<table border="1" width="50%" cellpadding="1">
     <tr>
-    <td>Ячейка 7</td>
-    <td>Ячейка 8</td>
-    <td>Ячейка 9</td>
+        <th>Ячейка 1</th>
+        <th>Ячейка 2</th>
+        <th>Ячейка 3</th>
+    </tr>
+    <tr>
+        <td>Ячейка 4</td>
+        <td>Ячейка 5</td>
+        <td>Ячейка 6</td>
+    </tr>
+    <tr>
+        <td>Ячейка 7</td>
+        <td>Ячейка 8</td>
+        <td>Ячейка 9</td>
   </tr>
 </table>
-<table border="1" width="100%" cellpadding="5">
+<table border="1" width="50%" cellpadding="1">
    <tr>
     <th>Ячейка 1</th>
     <td colspan="2">Ячейка 2,3</td>>
@@ -146,7 +111,7 @@ img
     <td>Ячейка 9</td>
   </tr>
 </table>
-<table border="1" width="100%" cellpadding="5">
+<table border="1" width="50%" cellpadding="1">
    <tr>
     <th>Ячейка 1</th>
     <th>Ячейка 2</th>
@@ -162,7 +127,7 @@ img
     <td>Ячейка 8</td>
   </tr>
 </table>
-<table border="1" width="100%" cellpadding="5">
+<table border="1" width="50%" cellpadding="1">
    <tr>
     <th>Ячейка 1</th>
     <th>Ячейка 2</th>
@@ -200,7 +165,6 @@ img
     <td>Ячейка 24</td>
   </tr>
 </table>
-
 <form>
     <input type="text" min="3" required placeholder="Фамилия">
     <input type="text" min="3" required placeholder="Имя">
@@ -211,14 +175,17 @@ img
     <input type="submit" value="Окей">
 </form>
 <form>
-    <p>Выберите пол</p>
-        <label>Мужской
-            <input type="checkbox" value="муж">
-        </label>
-        <label> Женский
-            <input type="checkbox" value="жен">
-        </label>
+    <p> <span>Выберите Пол:</span></p>
+    <span>Мужской</span>
+    <input name="sex" type="radio" required />
+    <span>Женский</span>
+    <input name="sex" type="radio" required />
+
     <p>
+        Фамилия: <input type="text" required minlength="3" >
+        Имя: <input type="text" required minlength="3" >
+        Отчество: <input type="text" minlength="3" >
+    </p>
             <input type="number" required placeholder="Возраст">
             <input type="tel" required placeholder="Телефон">
             <input type="mail" required placeholder="e-mail">
@@ -244,7 +211,6 @@ img
 <audio>
  <source src="bones.mp3"> 
 </audio>
-<audio id="sound" src="bones.mp3" controls></audio>
-</div>
+<audio src="https://muztron.com/pages/f-472355/a/6b815d301790047a45894219a8b8051879bed1e7f3a9bae76061641bb37314b7" controls> </audio>
 </body>
 </html>
